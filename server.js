@@ -25,7 +25,8 @@ app.post("/create", (req, res) => {
   // Construct email message
   const mailOptions = {
     from: `${email}`,
-    to: 'fkinneh73@hotmail.com',
+    // to: 'fkinneh73@hotmail.com',
+    to: 'alieusma@gmail.com',
     subject: 'Information About Abarri',
     text: `Hello Abarri Adult Family,\n\nMy name is ${fullName} and I'm writing in enquiry: \n\n\n${reason}. \n\nBelow is my details if you want to contact me: 
     \nPHONE: ${phone} \nEMAIL: ${email}.
